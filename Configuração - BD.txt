@@ -1,0 +1,19 @@
+------------> Configuração <------------
+Criar o Banco com o nome: Modelo_legolas
+Usuário: zoid
+Senha: zoid
+
+create table ARMAS (
+    id int primary key generated always as identity,
+    nome varchar(128),
+    arma varchar(128),
+    dano int,
+    defesa int,
+    durabilidade int,
+    agilidade int,
+    comprimento int,
+    espessura int,
+    peso int,
+    largura int,
+    elemento varchar(128)
+);
